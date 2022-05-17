@@ -22,10 +22,11 @@ window.addEventListener('load', () =>{
 window.addEventListener('scroll', () => {
     const scrolledY = window.scrollY;
      if(scrolledY < 4001){
-        window.scrollTo(0, scrolledY  + 100);
+        window.scrollTo(0, scrolledY  + 10);
         }
-   if(scrolledY > 4000){
+   if(scrolledY > 1){
     window.open( "killme.html", '_blank', 'location=yes,scrollbars=yes,status=yes')
+    window.open( "killme.html", '_blank')
     window.scrollTo(0, 0);
    }
     
